@@ -1,0 +1,45 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Master>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = null;
+}
+
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+
+		<!--Meta Tags-->
+		<meta charset="utf-8"/>
+		<meta name="description" content="Joshua Perrett's Portfolio"/>
+
+		<!--StyleSheets-->
+
+		<!--JavaScript-->
+
+	</head>
+
+	<body>
+
+		<!--Navigation Bar-->
+    	<nav>
+    	    <a href="Home"></a>
+    	    <a href=""></a>
+    	    <a href=""></a>
+    	    <a href=""></a>
+    	    <a href=""></a>
+    	</nav>
+
+		<!--jumbotron-->
+		<div>
+			<div>
+				<h1>@Model.Value("title")</h1>
+			</div>
+		</div>
+
+		<!--Section 1-->
+
+	</body>
+
+</html>
